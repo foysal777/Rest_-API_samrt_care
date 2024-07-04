@@ -27,6 +27,8 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+# csrf token add ******************
+CSRF_TRUSTED_ORIGINS = ['https://rest-api-samrt-care.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
