@@ -16,3 +16,6 @@ urlpatterns = [
 if settings.DEBUG:urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
 
 #  szvi svfp hewt lcma
+
+
+# LIVE LINK : https://rest-api-samrt-care.onrender.com/
