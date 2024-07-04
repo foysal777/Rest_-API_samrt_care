@@ -29,7 +29,9 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 # csrf token add ******************
 CSRF_TRUSTED_ORIGINS = ['https://rest-api-samrt-care.onrender.com','https://*.127.0.0.1']
-
+CORS_ALLOWED_ORIGINS = [
+    'http://127.0.0.1:5500',
+]
 
 # Application definition
 
